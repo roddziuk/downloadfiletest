@@ -1,0 +1,10 @@
+{
+  "reporter": "/Users/yanaroddier/Documents/downloadfiletest/node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "projectId": "nu3r3i"
+}
