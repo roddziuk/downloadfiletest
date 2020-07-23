@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 2,
-    "start": "2020-07-23T08:10:25.647Z",
-    "end": "2020-07-23T08:10:39.350Z",
-    "duration": 13703,
+    "start": "2020-07-23T08:12:12.298Z",
+    "end": "2020-07-23T08:12:26.666Z",
+    "duration": 14368,
     "testsRegistered": 2,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "fc295dfe-60cc-4719-abd6-657db2cb2552",
+      "uuid": "d3097e35-377d-4cc8-b95b-45cae7bbf8e0",
       "title": "",
       "fullFile": "cypress/integration/downloadUploadFile.spec.js",
       "file": "cypress/integration/downloadUploadFile.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7e3d1df9-5c7f-4211-90a5-2d9a23279d7b",
+          "uuid": "4aceac1b-7759-4a65-944f-8f89318fabc5",
           "title": "File upload and download tests",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Upload file and download it in Zip format",
               "fullTitle": "File upload and download tests Upload file and download it in Zip format",
               "timedOut": null,
-              "duration": 5424,
+              "duration": 6116,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying: Expected to find content: 'This bin contains 1 file' but never did.\n    at Context.eval (https://filebin.net/__cypress/tests?p=cypress/integration/downloadUploadFile.spec.js:10:45)",
                 "diff": null
               },
-              "uuid": "a1c582d4-de9b-4d66-a3cf-cf511209cded",
-              "parentUUID": "7e3d1df9-5c7f-4211-90a5-2d9a23279d7b",
+              "uuid": "f6d4ed7a-f506-49d1-8831-78f7d296b006",
+              "parentUUID": "4aceac1b-7759-4a65-944f-8f89318fabc5",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "Upload file and download it in Tar format",
               "fullTitle": "File upload and download tests Upload file and download it in Tar format",
               "timedOut": null,
-              "duration": 5004,
+              "duration": 6079,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -73,8 +73,8 @@
                 "estack": "AssertionError: Timed out retrying: Expected to find content: 'This bin contains 1 file' but never did.\n    at Context.eval (https://filebin.net/__cypress/tests?p=cypress/integration/downloadUploadFile.spec.js:20:45)",
                 "diff": null
               },
-              "uuid": "d7d5d370-9d86-43af-a8c5-e71d8247cc1c",
-              "parentUUID": "7e3d1df9-5c7f-4211-90a5-2d9a23279d7b",
+              "uuid": "3480d2a1-d991-4b90-8351-1831e58b3148",
+              "parentUUID": "4aceac1b-7759-4a65-944f-8f89318fabc5",
               "isHook": false,
               "skipped": false
             }
@@ -82,12 +82,12 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a1c582d4-de9b-4d66-a3cf-cf511209cded",
-            "d7d5d370-9d86-43af-a8c5-e71d8247cc1c"
+            "f6d4ed7a-f506-49d1-8831-78f7d296b006",
+            "3480d2a1-d991-4b90-8351-1831e58b3148"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 10428,
+          "duration": 12195,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

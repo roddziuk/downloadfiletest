@@ -6,7 +6,9 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run --record --key bbf538fc-a810-4409-8ea8-0adb2052ba4b",
-    "cy:run:report": "cypress run --record --key bbf538fc-a810-4409-8ea8-0adb2052ba4b --reporter mochawesome"
+    "cy:run:report": "cypress run --record --key bbf538fc-a810-4409-8ea8-0adb2052ba4b --browser chrome --reporter mochawesome",
+    "delete:reports": "rm cypress/results/* || true",
+    "prereport": "npm run delete:reports"
   },
   "keywords": [],
   "author": "",
